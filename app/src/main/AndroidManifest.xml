@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".CustomDialogFragment"
+            android:exported="false" />
+        <activity
             android:name=".Prod_Activity"
             android:exported="false" />
         <activity
