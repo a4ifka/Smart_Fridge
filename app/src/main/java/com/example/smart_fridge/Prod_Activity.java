@@ -2,13 +2,21 @@ package com.example.smart_fridge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ContentValues;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import java.sql.SQLException;
 
 public class Prod_Activity extends AppCompatActivity {
+
+    public String nameProd;
+    public String nameProd2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,28 +27,26 @@ public class Prod_Activity extends AppCompatActivity {
         Button btn = findViewById(R.id.btnAddDB);
 
         EditText edt2 = findViewById(R.id.edt2);
-        Button btn2 = findViewById(R.id.btnAddDB2);
 
-
+        BaseDate database = new BaseDate();
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String nameProd;
+
 
                 nameProd = edt.getText().toString();
-            }
-        });
-
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String nameProd2;
-
                 nameProd2 = edt2.getText().toString();
 
+
+
+
+
+                Toast.makeText(Prod_Activity.this, "Успешно", Toast.LENGTH_SHORT).show();
+
             }
         });
+
 
     }
     public void showDialog(View v) {
