@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/drawable/splash_background.xml" value="0.1365" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/activity_custom_dialog_fragment.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/activity_prod.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/activity_splash.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/fragment_buff.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Smart_Fridge/app/src/main/res/layout/fragment_conn.xml" value="0.12552083333333333" />
       </map>
